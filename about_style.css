@@ -43,19 +43,13 @@ body {
     flex-basis: 98px;
     font-weight: bold;
     text-shadow: 10px 10px 0px #18202A;
-   
-    
-  
+    color: #F9FAF8;
     /* border: 2px solid red; */
     margin-top: 6px;
     margin-left: 50px;
     
 }
-.name {
-    
-    color: #FFDF64;
-    
-}
+
 
 .link {
     list-style-type: none;
@@ -74,6 +68,10 @@ a {
     -webkit-transition: color 0s;
     transition: color 0s;
     
+}
+
+.about {
+    color: #FFDF64;
 }
 
 a:link {
