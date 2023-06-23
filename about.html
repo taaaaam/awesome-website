@@ -4,48 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
     <link rel="stylesheet" href="about_style.css">
 </head>
 <body>
     <div class="one">
         <div class="header">
             <div class="logo">
-                <a href="index.html">/Tam_Vu/About/</a>
-                
+                <a href="index.html" class="name">/Tam_Vu/About/</a>
             </div>
             <ul class="link">
-                
-                <li><a href="about.html" class = "about">/ABOUt</a></li>
-                <li><a href="art.html" class = "art">/ART</a></li>
-                <li><a href="projects.html" class = "projects">/PROJECTS</a></li>
-                  
+                <li><a href="about.html" class="about">/ABOUt</a></li>
+                <li><a href="art.html" class="art">/ART</a></li>
+                <li><a href="projects.html" class="projects">/PROJECTS</a></li>
             </ul>
         </div>
         <div class="intro">
-            <div class="text">
-                <div class="big">
-                    <p class="first">Hi, MY</p>
-                    <p class="second">NAME IS</p>
-                    <div class="third">TAM VU</div>
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">May-Present</div>
+                        <div class="timeline-content">
+                            <p class="clickable" onclick="showContent('content1')">YALE BCG</p>
+                           
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Aug-Oct 2022</div>
+                        <div class="timeline-content">
+                            <p class="clickable" onclick="showContent('content2')">Weill Cornell Medicine</p>
+                           
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun-Aug 2022</div>
+                        <div class="timeline-content">
+                            <p class="clickable" onclick="showContent('content3')">VinBigData</p>
+                           
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Sept 2022-Present</div>
+                        <div class="timeline-content">
+                            <p class="clickable" onclick="showContent('content4')">Yale Computer Society</p>
+                         
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Sept 2021-Present</div>
+                        <div class="timeline-content">
+                            <p class="clickable" onclick="showContent('content5')">YHack</p>
+                            
+                        </div>
+                    </div>
                 </div>
-                <div class="small">
-                    I'm an aspiring software engineer with a focus in AI. I also love making art and filming stuff. Thanks for checking me out :-)
+                <div id="content0" class="content0">
+                    <h2>About Me</h2>
+                    <p class="custom-font">I am currently a third year at Yale University double majoring CS and Statistics and Data Science. Outside of class, you'd find me at the volleyball courts, going for a run, making art, and trying new things! If you like to learn more about my experiences, click on the links to the left! &#x2B05;&#xFE0F; </p>
+                    <p class="custom-font">If you'd like to see my resume, click here!</p>
                 </div>
-                <button class="button">
-                    Contact me
-                </button>
-            </div>
-            <div class="image">
-                <img src="./me.jpeg" alt="mom" class = "mom">
-            </div>
-        </div>
-    </div>
     
+                <div id="content1" class="content">
+                    <h2>Yale Center for Biodiversity and Global Change</h2>
+                    <p class="custom-font">This is the first content.</p>
+                  </div>
+                  
+                  <div id="content2" class="content">
+                    <h2>Weill Cornell Medicine</h2>
+                    <p>This is the second content.</p>
+                  </div>
+                  
+                  <div id="content3" class="content">
+                    <h2>VinBigData</h2>
+                    <p>This is the third content.</p>
+                  </div>
+                  <div id="content4" class="content">
+                    <h2>Yale Computer Society</h2>
+                    <p>This is the third content.</p>
+                  </div>
+                  <div id="content5" class="content">
+                    <h2>YHack</h2>
+                    <p>This is the third content.</p>
+                  </div>
+
+            </div>
+            
+ 
+        </div>
+
+
+        
+          
+
+          <script>
+            function showContent(contentId) {
+              // Hide all content divs
+              var contentDivs = document.getElementsByClassName('content');
+              for (var i = 0; i < contentDivs.length; i++) {
+                contentDivs[i].style.display = 'none';
+              }
+              var content0 = document.getElementsByClassName('content0')
+              
+              content0[0].style.display = 'none';
+              
+              // Show the selected content div
+              var selectedContent = document.getElementById(contentId);
+              selectedContent.style.display = 'block';
+            }
+          </script>
+
+
+
+
+
+    </div>
+
     <div class="five">
-        <p class="text">
-            Copyright @ Tam Vu 2022
-        </p>
+        <p class="text">Copyright @ Tam Vu 2022</p>
     </div>
 </body>
 </html>

@@ -10,7 +10,7 @@ body {
     font-family: myFont;
 }
 
-.one, .two, .three, .four, .five {
+.one,  .five {
     display: flex;
     
 }
@@ -52,7 +52,7 @@ body {
     
 }
 .name {
-    
+    /* border: 2px solid red; */
     color: #FFDF64;
     
 }
@@ -75,21 +75,27 @@ a {
     transition: color 0s;
     
 }
+.logo a:link {
+    text-decoration: none;
+}
 
-a:link {
+.button a:link{
+    text-decoration: none;
+}
+.link a:link {
     text-decoration: none;
   }
   
-  a:visited {
+.link  a:visited {
     text-decoration: none;
   }
   
-  a:hover {
+  .link  a:hover {
     text-decoration: none;
     color: #3882F6;
   }
   
-  a:active {
+  .link  a:active {
     text-decoration: none;
   }
 
