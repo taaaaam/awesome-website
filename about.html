@@ -25,35 +25,35 @@
                     <div class="timeline-item">
                         <div class="timeline-date">May-Present</div>
                         <div class="timeline-content">
-                            <p class="clickable" onclick="showContent('content1')">YALE BCG</p>
+                            <p class="clickable" id = "click1" onclick="showContent('content1')">YALE BCG</p>
                            
                         </div>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-date">Aug-Oct 2022</div>
                         <div class="timeline-content">
-                            <p class="clickable" onclick="showContent('content2')">Weill Cornell Medicine</p>
+                            <p class="clickable" id = "click2" onclick="showContent('content2')">Weill Cornell Medicine</p>
                            
                         </div>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-date">Jun-Aug 2022</div>
                         <div class="timeline-content">
-                            <p class="clickable" onclick="showContent('content3')">VinBigData</p>
+                            <p class="clickable"  id = "click3"onclick="showContent('content3')">VinBigData</p>
                            
                         </div>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-date">Sept 2022-Present</div>
                         <div class="timeline-content">
-                            <p class="clickable" onclick="showContent('content4')">Yale Computer Society</p>
+                            <p class="clickable"  id = "click4"onclick="showContent('content4')">Yale Computer Society</p>
                          
                         </div>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-date">Sept 2021-Present</div>
                         <div class="timeline-content">
-                            <p class="clickable" onclick="showContent('content5')">YHack</p>
+                            <p class="clickable" id = "click5" onclick="showContent('content5')">YHack</p>
                             
                         </div>
                     </div>
@@ -62,30 +62,65 @@
                     <h2>About Me</h2>
                     <p class="custom-font">I am currently a third year at Yale University double majoring CS and Statistics and Data Science. Outside of class, you'd find me at the volleyball courts, going for a run, making art, and trying new things! If you like to learn more about my experiences, click on the links to the left! &#x2B05;&#xFE0F; </p>
                     <p class="custom-font">If you'd like to see my resume, click here!</p>
+                    <div class="image">
+                        <img src="./me3.jpeg" alt="mom" class = "mom">
+                    </div>
                 </div>
     
                 <div id="content1" class="content">
                     <h2>Yale Center for Biodiversity and Global Change</h2>
-                    <p class="custom-font">This is the first content.</p>
+                    <p class="custom-font">As a data science intern, I worked on Yale BGC's flagship project, the Map of Life <a href="https://mol.org" class="mollink">(mol.org)</a></p>
+                    <p class="custom-font">Geographic information about biodiversity is vital for understanding the many services nature provides and their potential changes, yet remains unreliable and often insufficient. Built on a scalable web platform geared for large biodiversity and environmental data, Map of Life endeavors to provide 'best-possible' species range information and species lists for any geographic area. Map of Life aims to support effective and global biodiversity education, monitoring, research and decision-making by assembling and integrating a wide range of knowledge about species distributions and their dynamics over time.</p>
+                    <p class="custom-font">I work closely with a team of four on improving the workflow of the implementation of species distribution models (SDMs), which is the backbone for interpreting spatial and environmental data pertaining to any species. This allows for spatial predictions to be made based on the niche and behavior of a given species. My responsibility is to implement a report generation system to the current workflow, which visualizes the summary statistics once a model has been run.</p>
+                    <p class="custom-font">Languages: R, Python</p>
+                    <p class="custom-font">Frameworks: SDM</p>
+                    <div class="image">
+                        <img src="./mol.png"  class = "mol">
+             
+                    </div>
+                    
                   </div>
                   
                   <div id="content2" class="content">
                     <h2>Weill Cornell Medicine</h2>
-                    <p>This is the second content.</p>
+                    <p class="custom-font">At Weill Cornell, I worked closely with another student in developing IRIS (Intelligent Rapid Interactive Segmentation) for measuring liver cyst volumes in autosomal dominant polycystic kidney disease.</p>
+                    <p class="custom-font">I was mentored by Dr. Thanh Nguyen</p>
+                    <p class="custom-font">Languages: Python</p>
+                    <p class="custom-font">Frameworks: PyQT</p>
+
                   </div>
                   
                   <div id="content3" class="content">
                     <h2>VinBigData</h2>
-                    <p>This is the third content.</p>
-                  </div>
+                    <p class="custom-font">VinBigData JSC was founded as part of a key strategic development for Vingroup's goal of becoming a world-class Technology - Industrials - Services corporation, with technology taking center stage. Thanks to the competitive advantage of large-scale database, VinBigData provides cutting-edge products and platform solutions based on Big Data and Artificial Intelligence with world-class quality, supporting enterprises to accelerate digital transformation, optimize operation and business efficiency as well as enhance end-user experience.</p>
+                    <p class="custom-font">I worked on the computer vision team, where we designed and tested methods to use deep learning for medical image segmentation.</p>
+                    <p class="custom-font">Languages: Python</p>
+                    <p class="custom-font">Frameworks: PyTorch, NumPy</p>
+                    <div class="image">
+                        <img src="./vin.JPG"  class = "mol">
+             
+                    </div>
+                </div>
                   <div id="content4" class="content">
                     <h2>Yale Computer Society</h2>
-                    <p>This is the third content.</p>
+                    <p class="custom-font">YCS is Yale's largest technology and entrepreneurship organization. YCS offers development projects to gain real-world software engineering experience, as well has hosting speaker and social events. Visit our page <a href="http://yalecompsociety.org">[here]</a>.</p>
+                    <p class="custom-font">I am a software developer for ymeets, Yale's premier scheduling platform that makes scheduling meetings a seamless experience</p>
+                    <p class="custom-font">Languages: JavaScript</p>
+                    <p class="custom-font">Frameworks: React, AWS, Firebase</p>
                   </div>
                   <div id="content5" class="content">
                     <h2>YHack</h2>
-                    <p>This is the third content.</p>
-                  </div>
+                    <p class="custom-font">YHack is Yale's official hackathon, with thousands of participanting students yearly. Visit the website <a href="https://www.yhack.org">[here]</a>.</p>
+                    <p class="custom-font">I am in charge of the design team, which involves designing advertisement materials (posters, brochures, merchandise), as well as the official website.</p>
+                    <p class="custom-font">Languages: JavaScript</p>
+                    <p class="custom-font">Frameworks: React</p>
+                    <p class="custom-font">Tools: Figma</p>
+                    <div class="image">
+                        <img src="./yhack.png"  class = "poster">
+                        <img src="./yhack2.png"  class = "poster">
+                        <img src="./yhack3.png"  class = "poster">
+                    </div>
+                </div>
 
             </div>
             
@@ -103,13 +138,24 @@
               for (var i = 0; i < contentDivs.length; i++) {
                 contentDivs[i].style.display = 'none';
               }
+
+              var clickDivs = document.getElementsByClassName('clickable');
+              for (var i = 0; i < contentDivs.length; i++) {
+                clickDivs[i].style.color = 'white';
+              }
+
               var content0 = document.getElementsByClassName('content0')
-              
               content0[0].style.display = 'none';
               
               // Show the selected content div
               var selectedContent = document.getElementById(contentId);
               selectedContent.style.display = 'block';
+
+              var newString = contentId.replace("content", "click");
+              console.log(newString);
+              var selectedClick = document.getElementById(newString);
+              
+              selectedClick.style.color = '#FFDF64';
             }
           </script>
 

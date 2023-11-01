@@ -135,7 +135,7 @@ a:active {
     padding: 20px;
     margin-right: 10px;
     overflow-y: scroll;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    
     /* border: 2px solid red; */
     height: 600px;
 }
@@ -192,3 +192,29 @@ a:active {
     color: #fff;
     text-decoration: underline;
   }
+
+
+  .mom {
+    width: 500px;
+    height: auto;
+    border: 10px solid #F9FAF8;
+    box-shadow: 10px 10px #18202A;
+}
+
+.mollink {
+    text-decoration: underline;
+}
+
+.poster {
+    width: 200px;
+    height: auto;
+    border: 0px solid #F9FAF8;
+    box-shadow: 10px 10px #18202A;
+}
+
+.mol {
+    width: 500px;
+    height: auto;
+    border: 0px solid #F9FAF8;
+    box-shadow: 10px 10px #18202A;
+}
